@@ -1,0 +1,73 @@
+[
+    {
+        "name": "discover cultural artifacts",
+        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
+        "uniques": ["Gain [200] [Culture] <(modified by game speed)>"],
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "squatters willing to work for you",
+        "notification": "A [Worker] has joined us!",
+        "uniques": ["Free [Worker] found in the ruins", "Unavailable <on [Prince] difficulty or higher>"],
+        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
+    },
+    {
+        "name": "squatters wishing to settle under your rule",
+        "notification": "A [Settler] has joined us!",
+        "uniques": ["Free [Settler] found in the ruins", "Unavailable <on [Prince] difficulty or higher>"],
+        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+    },
+    {
+        "name": "your exploring unit receives training",
+        "notification": "An ancient tribe trained us in their ways of combat!",
+        "uniques": ["[This Unit] gains [100] XP", "Only available <after turn number [10]>"]
+    },
+    {
+        "name": "survivors (adds population to a city)",
+        "notification": "We have found survivors in the ruins! Population added to [cityName].",
+        "uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+		"color": "#81c784"
+    },
+    {
+        "name": "a stash of gold",
+        "notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "discover a lost technology",
+        "notification": "We have discovered the lost technology of [techName] in the ruins!",
+        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
+		"color": "#7f7fff"
+    },
+	{
+        "name": "advanced weaponry for your explorer",
+		"notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "reveal nearby Barbarian camps",
+        "notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "find a crudely-drawn map",
+		"notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "discover holy symbols",
+        "notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "an ancient prophecy",
+        "notification": "",  // trigger notification only
+        "uniques": ["Gain [500]-[1000] [Gold] <(modified by game speed)>"],
+        "color": "#ffeb7f"
+	}
+]

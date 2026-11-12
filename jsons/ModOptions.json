@@ -1,0 +1,8 @@
+{
+    "constants": {
+      "cityWorkRange": 5,
+      "unitSupplyPerPopulation": 0.2,
+      "minimalCityDistance": 4,
+      "minimalCityDistanceOnDifferentContinents": 2
+    }
+  }
